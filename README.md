@@ -106,7 +106,7 @@ The system combines XGBoost, Random Forest, SHAP (SHapley Additive Explanations)
 ### System Architecture
 
 ## [architecture_diagram]
-
+```
 React Dashboard
        |
        ▼
@@ -121,6 +121,7 @@ SHAP Explainability Layer
        |
        ▼
 SQLite Database
+```
 
 ## Quick Start (Windows)
 
