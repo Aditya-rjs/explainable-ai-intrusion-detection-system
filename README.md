@@ -15,14 +15,14 @@ The system combines XGBoost, Random Forest, SHAP (SHapley Additive Explanations)
 
 ## Supported attack categories include:
 
-DDoS Attacks
-Port Scanning
-Brute Force Attacks
-SQL Injection
-Botnet Activity
-DNS Tunneling
-FTP Patator
-SSH Patator
+- DDoS Attacks
+- Port Scanning
+- Brute Force Attacks
+- SQL Injection
+- Botnet Activity
+- DNS Tunneling
+- FTP Patator
+- SSH Patator
 
 ## Key Features
 
