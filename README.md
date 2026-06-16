@@ -280,14 +280,15 @@ python generate_sample.py
 ---
 
 ## Future Enhancements
-Live Packet Capture Integration
-Real-Time Network Monitoring
-Email & SMS Alerts
-Threat Intelligence Feeds
-Docker Deployment
-Cloud-Based Deployment
-SIEM Integration
-Advanced User Authentication
+
+- Live Packet Capture Integration
+- Real-Time Network Monitoring
+- Email & SMS Alerts
+- Threat Intelligence Feeds
+- Docker Deployment
+- Cloud-Based Deployment
+- SIEM Integration
+- Advanced User Authentication
 
 ---
 
