@@ -1,9 +1,115 @@
 # XAI-IDS — Explainable AI Based Intrusion Detection System
 
-> B.Tech Final Year Project | Cybersecurity Dashboard with XGBoost + SHAP
+> B.Tech Final Year Project | Full-Stack Explainable AI Powered Intrusion Detection System for Cyberattack Detection, Threat Analysis, and Security Monitoring.
 
 ---
 
+<img width="1916" height="951" alt="Screenshot 2026-05-19 131341" src="https://github.com/user-attachments/assets/3b98c371-fc35-4b38-946a-9eeb4ff8ae12" />
+
+
+Overview
+
+XAI-IDS is a full-stack Explainable AI (XAI) based Intrusion Detection System designed to detect, classify, and analyze multiple categories of cyberattacks using Machine Learning and Explainable AI techniques.
+
+The system combines XGBoost, Random Forest, SHAP (SHapley Additive Explanations), Flask REST APIs, and a React-based dashboard to provide real-time threat visibility, attack classification, and transparent prediction explanations.
+
+Supported attack categories include:
+
+DDoS Attacks
+Port Scanning
+Brute Force Attacks
+SQL Injection
+Botnet Activity
+DNS Tunneling
+FTP Patator
+SSH Patator
+Key Features
+Explainable AI Threat Detection
+Detects multiple cyberattack categories using Machine Learning models.
+Provides SHAP-based explanations for every prediction.
+Displays feature importance analysis for security investigation.
+
+<img width="1919" height="919" alt="Screenshot 2026-05-20 001348" src="https://github.com/user-attachments/assets/16cf5578-e2a4-40ff-b5df-d731fed73b93" />
+
+
+Security Monitoring Dashboard
+Real-time attack monitoring dashboard.
+Threat severity analysis.
+Attack distribution visualization.
+Confidence score tracking.
+Historical alert management.
+
+<img width="1916" height="951" alt="Screenshot 2026-05-19 131341" src="https://github.com/user-attachments/assets/3aa0064e-05b6-4230-b7a1-9cb7c684a532" />
+
+
+Traffic Analysis
+Network traffic monitoring and analytics.
+Interactive visualizations using Recharts.
+Protocol and traffic pattern analysis.
+
+<img width="1893" height="916" alt="Screenshot 2026-05-20 001248" src="https://github.com/user-attachments/assets/3ee119f6-1390-455d-80a1-dcf69976f49d" />
+
+
+Threat Alert Management
+Alert generation and management.
+Threat classification and prioritization.
+Attack history tracking.
+
+<img width="1907" height="920" alt="Screenshot 2026-05-20 001225" src="https://github.com/user-attachments/assets/87bab12a-e5c2-4c3c-979e-bcbc1d3a6657" />
+
+
+Automated Reporting
+Security report generation.
+Threat summaries.
+Model performance reporting.
+
+<img width="1916" height="916" alt="Screenshot 2026-05-20 001446" src="https://github.com/user-attachments/assets/3a713614-2943-4ba5-ae14-c8256419d990" />
+
+<img width="451" height="274" alt="Screenshot 2026-05-20 002051" src="https://github.com/user-attachments/assets/8b5d0a9a-eba1-41a3-afa6-bb84d0c38614" />
+
+
+Technology Stack
+Frontend
+React.js
+Vite
+Tailwind CSS
+Axios
+Recharts
+Backend
+Python
+Flask
+Flask-CORS
+Machine Learning & Explainable AI
+XGBoost
+Random Forest
+Scikit-learn
+SHAP
+Pandas
+NumPy
+Database
+SQLite
+Development Tools
+Git
+GitHub
+VS Code
+System Architecture
+
+[architecture_diagram]
+
+React Dashboard
+       |
+       ▼
+Flask REST API
+       |
+       ▼
+Machine Learning Engine
+(XGBoost / Random Forest)
+       |
+       ▼
+SHAP Explainability Layer
+       |
+       ▼
+SQLite Database
 ## Quick Start (Windows)
 
 ### 1. Backend (Python Flask + ML)
@@ -157,16 +263,6 @@ python generate_sample.py
 | DNS Tunneling | DNS-based covert channel |
 | FTP Patator | FTP brute-force tool |
 | SSH Patator | SSH brute-force tool |
-
----
-
-## Viva Talking Points
-
-1. **XGBoost** — gradient boosted decision trees, state-of-the-art for tabular data
-2. **SHAP (SHapley Additive exPlanations)** — model-agnostic explainability; shows which features caused the prediction
-3. **CICIDS2017** — standard benchmark dataset for IDS research (Canadian Institute for Cybersecurity)
-4. **Flask REST API** — stateless, scalable, easy to extend
-5. **SQLite** — zero-config embedded database, perfect for local deployment
 
 ---
 
