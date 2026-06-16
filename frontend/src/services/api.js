@@ -1,7 +1,9 @@
 import axios from "axios";
 
 // Base URL for the Flask backend
-const BASE_URL = "/api";
+const BASE_URL =
+  import.meta.env.VITE_API_URL ||
+  "https://explainable-ai-intrusion-detection-system.onrender.com/api";
 
 const api = axios.create({
   baseURL: BASE_URL,
