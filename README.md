@@ -7,13 +7,13 @@
 <img width="1916" height="951" alt="Screenshot 2026-05-19 131341" src="https://github.com/user-attachments/assets/3b98c371-fc35-4b38-946a-9eeb4ff8ae12" />
 
 
-Overview
+## Overview
 
 XAI-IDS is a full-stack Explainable AI (XAI) based Intrusion Detection System designed to detect, classify, and analyze multiple categories of cyberattacks using Machine Learning and Explainable AI techniques.
 
 The system combines XGBoost, Random Forest, SHAP (SHapley Additive Explanations), Flask REST APIs, and a React-based dashboard to provide real-time threat visibility, attack classification, and transparent prediction explanations.
 
-Supported attack categories include:
+## Supported attack categories include:
 
 DDoS Attacks
 Port Scanning
@@ -23,78 +23,89 @@ Botnet Activity
 DNS Tunneling
 FTP Patator
 SSH Patator
-Key Features
-Explainable AI Threat Detection
-Detects multiple cyberattack categories using Machine Learning models.
-Provides SHAP-based explanations for every prediction.
-Displays feature importance analysis for security investigation.
+
+## Key Features
+
+- Explainable AI Threat Detection
+- Detects multiple cyberattack categories using Machine Learning models.
+- Provides SHAP-based explanations for every prediction.
+- Displays feature importance analysis for security investigation.
 
 <img width="1919" height="919" alt="Screenshot 2026-05-20 001348" src="https://github.com/user-attachments/assets/16cf5578-e2a4-40ff-b5df-d731fed73b93" />
 
+## Security Monitoring Dashboard
 
-Security Monitoring Dashboard
-Real-time attack monitoring dashboard.
-Threat severity analysis.
-Attack distribution visualization.
-Confidence score tracking.
-Historical alert management.
+- Real-time attack monitoring dashboard.
+- Threat severity analysis.
+- Attack distribution visualization.
+- Confidence score tracking.
+- Historical alert management.
 
-<img width="1916" height="951" alt="Screenshot 2026-05-19 131341" src="https://github.com/user-attachments/assets/3aa0064e-05b6-4230-b7a1-9cb7c684a532" />
+<img width="1893" height="916" alt="Screenshot 2026-05-20 001248" src="https://github.com/user-attachments/assets/06bc61e5-43db-49a9-a74f-9ffa88361ca4" />
 
+## Traffic Analysis
 
-Traffic Analysis
-Network traffic monitoring and analytics.
-Interactive visualizations using Recharts.
-Protocol and traffic pattern analysis.
+- Network traffic monitoring and analytics.
+- Interactive visualizations using Recharts.
+- Protocol and traffic pattern analysis.
 
-<img width="1893" height="916" alt="Screenshot 2026-05-20 001248" src="https://github.com/user-attachments/assets/3ee119f6-1390-455d-80a1-dcf69976f49d" />
+<img width="1907" height="920" alt="Screenshot 2026-05-20 001225" src="https://github.com/user-attachments/assets/73a1de67-ab8a-4b4f-9a88-ee42426a837c" />
 
+## Threat Alert Management
 
-Threat Alert Management
-Alert generation and management.
-Threat classification and prioritization.
-Attack history tracking.
+- Alert generation and management.
+- Threat classification and prioritization.
+- Attack history tracking.
 
-<img width="1907" height="920" alt="Screenshot 2026-05-20 001225" src="https://github.com/user-attachments/assets/87bab12a-e5c2-4c3c-979e-bcbc1d3a6657" />
+<img width="1592" height="381" alt="Screenshot 2026-05-20 001332" src="https://github.com/user-attachments/assets/8e908238-360c-4752-bd7e-7843968c981c" />
 
-
-Automated Reporting
-Security report generation.
-Threat summaries.
-Model performance reporting.
+## Automated Reporting
+- Security report generation.
+- Threat summaries.
+- Model performance reporting.
 
 <img width="1916" height="916" alt="Screenshot 2026-05-20 001446" src="https://github.com/user-attachments/assets/3a713614-2943-4ba5-ae14-c8256419d990" />
 
 <img width="451" height="274" alt="Screenshot 2026-05-20 002051" src="https://github.com/user-attachments/assets/8b5d0a9a-eba1-41a3-afa6-bb84d0c38614" />
 
+### Technology Stack
 
-Technology Stack
-Frontend
-React.js
-Vite
-Tailwind CSS
-Axios
-Recharts
-Backend
-Python
-Flask
-Flask-CORS
-Machine Learning & Explainable AI
-XGBoost
-Random Forest
-Scikit-learn
-SHAP
-Pandas
-NumPy
-Database
-SQLite
-Development Tools
-Git
-GitHub
-VS Code
-System Architecture
+## Frontend
+- React.js
+- Vite
+- Tailwind CSS
+- Axios
+- Recharts
 
-[architecture_diagram]
+## Backend
+
+- Python
+- Flask
+- Flask-CORS
+
+## Machine Learning & Explainable AI
+
+- XGBoost
+- Random Forest
+- Scikit-learn
+- SHAP
+- Pandas
+- NumPy
+
+## Database
+
+- SQLite
+
+## Development Tools
+
+- Git
+- GitHub
+- VS Code
+
+
+### System Architecture
+
+## [architecture_diagram]
 
 React Dashboard
        |
@@ -110,6 +121,7 @@ SHAP Explainability Layer
        |
        ▼
 SQLite Database
+
 ## Quick Start (Windows)
 
 ### 1. Backend (Python Flask + ML)
@@ -266,6 +278,18 @@ python generate_sample.py
 
 ---
 
+## Future Enhancements
+Live Packet Capture Integration
+Real-Time Network Monitoring
+Email & SMS Alerts
+Threat Intelligence Feeds
+Docker Deployment
+Cloud-Based Deployment
+SIEM Integration
+Advanced User Authentication
+
+---
+
 ## Troubleshooting
 
 | Problem | Fix |
@@ -280,3 +304,17 @@ python generate_sample.py
 ---
 
 *XAI-IDS v1.0 — Built with React, Flask, XGBoost, and SHAP*
+
+---
+
+## CREATOR
+
+Aditya Raj Singh
+
+B.Tech Computer Science & Engineering
+
+LNJPIT, Chapra
+
+Email: aditya.rjs003@gmail.com
+
+LinkedIn: https://www.linkedin.com/in/aditya-raj-singh-5ab5bb259
